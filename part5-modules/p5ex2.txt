@@ -1,0 +1,11 @@
+>>> import mymod
+>>> dir()
+['__builtins__', '__doc__', '__name__', 'mymod']
+>>> mymod.test("p5ex1.txt")
+(10, 197)
+>>> from mymod import *
+>>> dir()
+['__builtins__', '__doc__', '__name__', 'countChars', 'countLines', 'mymod', 'test']
+>>> countLines("mymod.py")
+25
+

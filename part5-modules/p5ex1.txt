@@ -1,0 +1,10 @@
+>>> from mymod import *
+>>> dir()
+['__builtins__', '__doc__', '__name__', 'countChars', 'countLines', 'test']
+>>> countChars(mymod.py)
+660
+>>> countLines(mymod.py)
+25
+>>> test(mymod.py)
+(25, 660)
+
