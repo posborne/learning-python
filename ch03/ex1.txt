@@ -1,0 +1,7 @@
+osbpau@pobox:~/dev/python/learning-python/ch03$ python
+Python 2.5.2 (r252:60911, Oct  5 2008, 19:24:49) 
+[GCC 4.3.2] on linux2
+Type help, copyright, credits or license for more information.
+'Hello World!'
+>>> quit()
+osbpau@pobox:~/dev/python/learning-python/ch03$ 

@@ -1,4 +1,4 @@
 #!/usr/bin/env python
 
-print "Yeah, the shebang line works"
+import ex2
 

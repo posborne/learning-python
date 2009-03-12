@@ -1,0 +1,16 @@
+Script started on Wed 11 Mar 2009 08:25:10 PM CDT
+osbpau@pobox:~/dev/python/learning-python/ch03$ python
+Python 2.5.2 (r252:60911, Oct  5 2008, 19:24:49) 
+[GCC 4.3.2] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 1 / 0
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ZeroDivisionError: integer division or modulo by zero
+>>> a
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'a' is not defined
+>>> quit()
+osbpau@pobox:~/dev/python/learning-python/ch03$
+Script done on Wed 11 Mar 2009 08:26:11 PM CDT
