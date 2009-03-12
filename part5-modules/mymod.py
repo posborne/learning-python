@@ -23,3 +23,9 @@ def test(filename):
     """
     # this could be optimized to only open the file once
     return (countLines(filename), countChars(filename))
+
+
+if __name__ == '__main__':
+    filename = raw_input('Enter filename: ')
+    res = test(filename)
+    print "The file \"%s\" has %i lines and %i characters" % (filename, res[0], res[1])
