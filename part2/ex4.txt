@@ -1,0 +1,5 @@
+>>> X = 'spam'
+>>> Y = 'eggs'
+>>> X, Y = Y, X
+>>> X, Y
+('eggs', 'spam')

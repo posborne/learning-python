@@ -1,0 +1,10 @@
+>>> D = {'a':1, 'b':2, 'c':3}
+>>> D
+{'a': 1, 'c': 3, 'b': 2}
+>>> D['d']
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+KeyError: 'd'
+>>> D['d']='spam'
+>>> D
+{'a': 1, 'c': 3, 'b': 2, 'd': 'spam'}

@@ -1,0 +1,42 @@
++------------------------------+
+|           PART A             |
++------------------------------+
+>>> "spam" + 5
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: cannot concatenate 'str' and 'int' objects
+>>> "cows" + ['a','b']
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: cannot concatenate 'str' and 'list' objects
+>>> 'cows' + ('b','i','g')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: cannot concatenate 'str' and 'tuple' objects
+
++------------------------------+
+|           PART B             |
++------------------------------+
+>>> D = {'a':2}
+>>> 5 + D
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: unsupported operand type(s) for +: 'int' and 'dict'
+>>> E = {'b':3}
+>>> E + D
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: unsupported operand type(s) for +: 'dict' and 'dict'
+
++------------------------------+
+|           PART C             |
++------------------------------+
+>>> 'cows ' + 'bridges'
+'cows bridges'
+>>> [1,2,3] + [4,5,6]
+[1, 2, 3, 4, 5, 6]
+
++------------------------------+
+|           PART D             |
++------------------------------+
+Same type (strings are lists)
