@@ -46,4 +46,3 @@ if __name__ == '__main__':
     x.sort()
     for el in x:
         print el,
-    
