@@ -30,6 +30,7 @@ def oops():
 
 def oopsCaller():
     try:
+        # this will print errors
         safeCall(oops)
     except IndexError:
         print "Caught an index error"
