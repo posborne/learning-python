@@ -1,0 +1,12 @@
+This is a paragraph that mentions bell peppers multiple times. For
+one, here is a red pepper and dried tomato salad recipe.  I don't like
+to use green peppers in my salads as much because they have a harsher
+flavor.
+
+This second paragraph mentions red peppers and green peppers but not
+the "s" word (s-a-l-a-d), so no bells should show up.
+
+This third paragraph mentions red peppercorns and green peppercorns,
+which aren't vegetables but spices (by the way, bell peppers really
+aren't peppers, they're chilies, but would you rather have a good cook
+or a good botanist prepare your salad?).
