@@ -33,7 +33,9 @@ class PosixShell(cmd.Cmd):
         print "                (current directory by default)"
 
     def do_ls(self, line):
-        """List the current directory"""
+        """
+        List the current directory
+        """
         if line == '': dirs = [os.curdir]
         else: dirs = line.split()
         for dirname in dirs:
@@ -50,18 +52,36 @@ class PosixShell(cmd.Cmd):
         os.chdir(dirname)
 
     def do_mkdir(self, dirname):
+        """
+        Create the specified directory as either an absolutely
+        or relatively specified directory
+        """
         os.mkdir(dirname)
 
     def do_cp(self, line):
+        """
+        Copy source files to destination
+        ex:
+        cp file1 file2 dest/
+        OR
+        cp file1 newfile1
+        """
         words = line.split()
         sourcefiles, target = words[:-1], words[-1]
         shutil.copy(sourcefile, target)
     
     def do_mv(self, line):
+        """
+        Move source to target (destroys original file)
+        """
         source, target = line.split()
         os.rename(source, target)
 
     def do_rm(self, line):
+        """
+        Remove the specified files
+        """
+        # we can do this as a list comprehension
         [os.remove(arg) for arg in line.split()]
 
 class DirectoryPrompt:
