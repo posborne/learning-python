@@ -1,0 +1,4 @@
+found 'cow' 1 times in mygrep.py on line 8.
+found 'cow' 1 times in mygrep.py on line 9.
+found 'cow' 1 times in p8ch27ex6.py on line 8.
+found 'cow' 1 times in p8ch27ex6.py on line 9.
